@@ -343,6 +343,8 @@ grid.arrange(gg.injuries,gg.mid,gg.fatalities,
              top=paste("Aggregated human injuries & fatalities for weather events from ",cutOffYear," to ",endYear, sep=""))
 ```
 
+![plot of chunk unnamed-chunk-12](./stormDataAnalysis_files/figure-html/unnamed-chunk-12.png) 
+
 ![Human Injuries and Fatalities](https://github.com/sachinvraje/reproducible_research_project2/blob/master/image12.png) 
 
 The underlying data
@@ -379,6 +381,8 @@ ggplot(meltSumEconomicDamage, aes(x=damageSource, y=damage/1000000)) +
   ylab("Total Damage (millions of USD)") +
   ggtitle(paste("Aggregated property and crop damage for weather events from ",cutOffYear," to ",endYear, sep=""))
 ```
+
+![plot of chunk unnamed-chunk-14](./stormDataAnalysis_files/figure-html/unnamed-chunk-14.png) 
 
 ![Property and Crop Damage](https://github.com/sachinvraje/reproducible_research_project2/blob/master/image14.png) 
 
